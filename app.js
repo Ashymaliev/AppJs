@@ -24,7 +24,10 @@ let sum =  simpleMath(11, 382);
 console.log(sum);
 
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", chekScroll);
+document.addEventListener("DOMContentLoader", chekScroll);
+
+function chekScroll() {
     let scrollPos = window.scrollY;
 
     if(scrollPos > 0) {
@@ -33,7 +36,8 @@ window.addEventListener("scroll", function() {
     } else {
         header.classList.remove('red')
     }
-});
+
+}
 
 
 testBtn.addEventListener("click", function(){
