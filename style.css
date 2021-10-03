@@ -13,6 +13,14 @@ body {
 /* Page */
 .page {
     padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* Header */
@@ -23,4 +31,16 @@ body {
     background-color: #111;
     position: fixed;
     top: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+   justify-content:center;
+
+}
+
+.nav__link{
+    padding:20px;
+    color: white;
 }
