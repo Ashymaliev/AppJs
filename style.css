@@ -13,8 +13,8 @@ body {
 /* Page */
 .page {
     padding-top: 70px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .section{
@@ -35,7 +35,16 @@ body {
     background-color: #111;
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
+
+.header.red{
+    background-color: rgb(64, 226, 32);
+}
+
+/* Nav */
 
 .nav{
     display: flex;
